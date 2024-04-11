@@ -1,3 +1,5 @@
 # AcctLockSrc
 
- Powershell script to find the Account Lockout Source
+ Powershell script to get PC name and then run a security event check for account lockout
+ ID Codes 4625 (Failed Logon), 4771 (Kerberos Pre-auth Failure)
+ Output gives username, Logong type, Logon Process, Failure Reason
